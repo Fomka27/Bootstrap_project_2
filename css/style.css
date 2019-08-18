@@ -1,0 +1,83 @@
+body{
+    min-width: 320px;
+    font-size: 14px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #626262;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+a, h3,h4 {
+    color: #626262;
+}
+a:hover{
+    color: #898377;
+}
+header .navbar-light{
+    background-color: darkseagreen;
+}
+header .navbar-brand{
+    font-size: 20px;
+    color: black;
+    text-transform: uppercase;
+}
+header .nav-item{
+    text-transform: uppercase;
+    margin-left: 30px;
+}
+header .nav-item a::after{
+    content: '';
+    display: block;
+    width: 100%;
+    background-color: black;;
+    height: 1px;
+    transform: scale(0);
+    transition: all .3s;
+}
+header .nav-item a:hover::after{
+    transform: scale(1);
+}
+header .navbar-collapse .btn-outline-success {
+    color: white;
+    border-color: #626262;
+}
+header .navbar-collapse .btn-outline-success:hover {
+    background-color: black;
+}
+main .form-inline{
+    justify-content: center;
+    padding: 20px;
+}
+main .form-inline .btn-primary {
+    background-color: darkseagreen;
+    border-color: #626262;
+}
+main .form-inline .btn-primary:hover {
+    background-color: black;
+}
+main .card-body .btn-primary {
+    background-color: darkseagreen;
+    border-color: #626262;
+}
+main .card-body .btn-primary:hover {
+    background-color: black;
+}
+.footer-style{
+    background-color: darkseagreen;
+    padding: 30px 0;
+    
+}
+.footer-left a{
+    color: #626262;
+    margin-right: 20px;
+}
+.footer-right a{
+    color: #626262;
+    margin-left: 20px;
+}
+.footer-left a:hover, .footer-right a:hover{
+    text-decoration: none;
+    color: black;
+}
+
